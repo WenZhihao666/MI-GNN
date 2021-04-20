@@ -22,8 +22,8 @@ The repository is organised as follows:
 ## Datasets
 
   We use 5 benchmark datasets: Flickr, Yelp, Cuneiform, COX2 and DHFR.And you can also prepare your own datasets. The data format should be as follows,
-    -(1) For each small graph, the data should be the form of torch_geometric.data.Data. You can refer to this: https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#
-    -(2) For the whole dataset of graphs, it can be the form of python list, i.e., "[]".
+  -(1) For each small graph, the data should be the form of torch_geometric.data.Data. You can refer to this: https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#
+  -(2) For the whole dataset of graphs, it can be the form of python list, i.e., "[]".
 ## Train and test
 
   To train and test the model in the paper(note that: 
