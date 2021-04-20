@@ -1,5 +1,5 @@
 # Meta-Inductive Node Classification across Graphs 
-We provide the implementaion of MI-GNN model.
+We provide the implementaion of MI-GNN model, which is the source code for the SIGIR 2021 paper"Meta-Inductive Node Classification across Graphs".
 
 The repository is organised as follows:
 - dataset/: contains 5 benchmark datasets: Flickr, Yelp, Cuneiform, COX2 and DHFR. Note: all the five datasets are processed datasets and we can directly use them once we download all this repository. 
@@ -18,12 +18,27 @@ The repository is organised as follows:
   To install requirements:
 
     pip install -r requirements.txt
+    
+## Datasets
 
+  We use 5 benchmark datasets: Flickr, Yelp, Cuneiform, COX2 and DHFR.And you can also prepare your own datasets. The data format should be as follows,
+    -(1) For each small graph, the data should be the form of torch_geometric.data.Data. You can refer to this: https://pytorch-geometric.readthedocs.io/en/latest/modules/data.html#
+    -(2) For the whole dataset of graphs, it can be the form of python list, i.e., "[]".
 ## Train and test
 
-  To train and test the model in the paper(note that: (1)the following single file includes all the data split into training and testsing set; (2) we just need to run this single file and all things can be done, including data preprocessing, training and testing):
+  To train and test the model in the paper(note that: 
+  -(1)the following single file includes all the data split into training and testsing set; 
+  -(2)we just need to run this single file and all things can be done, including data preprocessing, training and testing):
   
     python main.py
+    
+## Cite
+	@inproceedings{wen2021metainductive,
+		title = {Meta-Inductive Node Classification across Graphs},
+		author = {Wen, Zhihao and Fang, Yuan and Liu, Zemin},
+		booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+		year = {2021}
+	}
     
 
 
