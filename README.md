@@ -1,5 +1,6 @@
 # Meta-Inductive Node Classification across Graphs 
-We provide the implementaion of MI-GNN model, which is the source code for the SIGIR 2021 paper"Meta-Inductive Node Classification across Graphs".
+We provide the implementaion of MI-GNN model, which is the source code for the SIGIR 2021 paper
+"Meta-Inductive Node Classification across Graphs". https://dl.acm.org/doi/pdf/10.1145/3404835.3462915
 
 The repository is organised as follows:
 - dataset/: contains 5 benchmark datasets: Flickr, Yelp, Cuneiform, COX2 and DHFR. Note: all the five datasets are processed datasets and we can directly use them once we download all this repository. 
