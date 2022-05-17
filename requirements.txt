@@ -22,10 +22,10 @@ mkl-random==1.1.1
 mkl-service==2.3.0
 networkx==2.5
 numba==0.51.2
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1596233721170/work
+numpy 
 olefile==0.46
-pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1602502752693/work
-Pillow @ file:///tmp/build/80754af9/pillow_1594307295532/work
+pandas 
+Pillow 
 protobuf==3.13.0
 pycairo==1.20.0
 pyparsing==2.4.7
